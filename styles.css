@@ -1,0 +1,106 @@
+/* OVERALL FLEX COMPONENTS */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header, 
+.hero, 
+.info,
+.quote,
+.quote-content,  
+.form,
+.form-content, 
+.footer,
+.navbar,
+.info-grp {
+    display: flex;
+}
+
+.info,
+.quote,
+.quote-content {
+    flex-direction: column;
+}
+
+/* HEADER STYLES */
+.navbar {
+    padding: 0;
+    list-style: none;
+    column-gap: 20px;
+    margin-left: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+/* HERO STYLES */
+.hero {
+    justify-content: center;
+}
+
+.message {
+    width: 30%;
+}
+
+.hero > img {
+    width: 30%;
+    height: auto;
+}
+
+/* INFO STYLES */
+.info {
+    text-align: center;
+}
+
+.info-grp {
+    justify-content: space-evenly;
+}
+
+.group {
+    width: 20%;
+}
+
+/* QUOTE STYLES */
+.quote {
+    align-items:center;
+    justify-content: center;
+}
+
+.quote-content {
+    width: 45%;
+}
+
+.quotation {
+    font-style: italic
+}
+
+.speaker {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+/* FORM STYLES */
+.form {
+    align-items:center;
+    justify-content: center;
+}
+
+.form-content {
+    width: 70%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-content > button {
+    height: fit-content;
+}
+
+/* FOOTER STYLES */
+.footer {
+    align-items:center;
+    justify-content: center;
+}
